@@ -11,7 +11,9 @@ publishes stats to another StatsD service.
 ## Configuration
 You have to give basic information about your other StatsD server to use
 ```
-{ statsdHost: 'localhost'
+{ 
+  backends: ['statsd-backend']
+, statsdHost: 'localhost'
 , statsdPort: 5672
 }
 ```
