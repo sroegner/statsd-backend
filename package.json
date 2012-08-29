@@ -9,7 +9,7 @@
     "url": "https://github.com/dynmeth/statsd-backend.git"
     },
   "dependencies": {
-    "statsd-client": ">=0.0.2"
+    "statsd-client": ">=0.0.3"
   },
   "devDependencies": {},
   "optionalDependencies": {},
